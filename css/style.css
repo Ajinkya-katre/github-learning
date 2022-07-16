@@ -1,0 +1,20 @@
+.header{
+    background: linear-gradient(to right, #000000, #434343);
+}
+
+.head1{
+    font-family: sans-serif;
+    padding: 0%;
+    position: relative;
+    animation: mymove 10s infinite;
+}
+
+@keyframes mymove{
+    0% {left: 0px;border-radius:30px; color:aliceblue;background: linear-gradient(to right,yellow, #f11712);}
+
+    50% {left: 50%;color:aliceblue;background: linear-gradient(to right, orange, #f11712);}
+    
+  100% {left: 100%;color:cornflowerblue;background: linear-gradient(to right, #0099f7, #f11712);}
+  
+
+}
